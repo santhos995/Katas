@@ -80,6 +80,22 @@ namespace StringCalculatorTests
 
             Assert.That(result, Is.EqualTo(1));
         }
+
+        [Test]
+        public void Add_NumberWithMultipleLengthDelimiters_ReturnsTheSum()
+        {
+            int result = stringCalculator.Add("//[***]\n1***2");
+
+            Assert.That(result, Is.EqualTo(3));
+        }
+
+        [Test]
+        public void Add_NumbersWithMultipleMultiLengthDelimiters_ReturnsTheSum()
+        {
+            int result = stringCalculator.Add("//[***][;;]\n1;;2***3");
+
+            Assert.That(result, Is.EqualTo(6));
+        }
     }
 
 }
