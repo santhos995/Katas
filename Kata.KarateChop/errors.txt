@@ -1,0 +1,2 @@
+﻿1) While condition has to be l<=r but I wrote l<r
+2) Instead of comparing value, O compared nums[l] to the nums[mid]

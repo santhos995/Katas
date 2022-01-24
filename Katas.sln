@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.StringCalculator", "Kata.StringCalculator\Kata.StringCalculator.csproj", "{13DF92DE-7292-4066-94AB-83EC39B7017F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.StringCalculator", "Kata.StringCalculator\Kata.StringCalculator.csproj", "{13DF92DE-7292-4066-94AB-83EC39B7017F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6FD26F7B-2073-437A-ACB1-86F152F66E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorTests", "StringCalculatorTests\StringCalculatorTests.csproj", "{B08E25CA-D031-4886-B971-74E8EBA2F8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCalculatorTests", "StringCalculatorTests\StringCalculatorTests.csproj", "{B08E25CA-D031-4886-B971-74E8EBA2F8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.KarateChop", "Kata.KarateChop\Kata.KarateChop.csproj", "{D03F2918-4507-493B-9BE0-A6CA984E4129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarateChopTests", "KarateChopTests\KarateChopTests.csproj", "{B7A5403B-DA41-4012-9A74-67C94D213B06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,21 @@ Global
 		{B08E25CA-D031-4886-B971-74E8EBA2F8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B08E25CA-D031-4886-B971-74E8EBA2F8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B08E25CA-D031-4886-B971-74E8EBA2F8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03F2918-4507-493B-9BE0-A6CA984E4129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03F2918-4507-493B-9BE0-A6CA984E4129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03F2918-4507-493B-9BE0-A6CA984E4129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03F2918-4507-493B-9BE0-A6CA984E4129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A5403B-DA41-4012-9A74-67C94D213B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A5403B-DA41-4012-9A74-67C94D213B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A5403B-DA41-4012-9A74-67C94D213B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A5403B-DA41-4012-9A74-67C94D213B06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B08E25CA-D031-4886-B971-74E8EBA2F8AA} = {6FD26F7B-2073-437A-ACB1-86F152F66E4F}
+		{B7A5403B-DA41-4012-9A74-67C94D213B06} = {6FD26F7B-2073-437A-ACB1-86F152F66E4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0089C720-1F05-4D7B-9FBA-314BA00779CC}
